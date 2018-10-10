@@ -1,0 +1,20 @@
+{
+  "LOCAL": {
+    "serverConfig": {
+      "httpPort": 3000
+    },
+    "dbConfig": {
+      "host": "localhost",
+      "connectionLimit": 10,
+      "user": "node_practice",
+      "password": "node_practice",
+      "database": "node_practice"
+    },
+    "authConfig": {
+      "secretKey": "Prac71ce!",
+      "expiration": "24h",
+      "requestProperty": "user",
+      "headerName": "authorization"
+    }
+  }
+}
